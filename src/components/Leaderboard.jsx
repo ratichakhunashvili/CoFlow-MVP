@@ -12,7 +12,7 @@ export default function Leaderboard() {
   const allDemo = ranked.every((p) => p.demo)
 
   return (
-    <section id="leaderboard" aria-labelledby="leaderboard-title" className="py-20 md:py-28">
+    <section id="leaderboard" aria-labelledby="leaderboard-title" className="border-t border-roast/15 py-20 md:py-28">
       <div className="mx-auto w-full max-w-[1200px] px-5 md:px-8">
         <div className="grid gap-10 lg:grid-cols-12 lg:items-end lg:gap-16">
           <div className="lg:col-span-7">
