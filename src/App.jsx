@@ -4,6 +4,7 @@ import Problem from './components/Problem.jsx'
 import Products from './components/Products.jsx'
 import Process from './components/Process.jsx'
 import Testing from './components/Testing.jsx'
+import Leaderboard from './components/Leaderboard.jsx'
 import Partnership from './components/Partnership.jsx'
 import ContactForm from './components/ContactForm.jsx'
 import Footer from './components/Footer.jsx'
@@ -24,6 +25,7 @@ export default function App() {
         <Products />
         <Process />
         <Testing />
+        <Leaderboard />
         <Partnership />
         <ContactForm />
       </main>

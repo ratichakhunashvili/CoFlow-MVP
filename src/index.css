@@ -37,8 +37,8 @@
 }
 
 /* ───── დიზაინ-ტოკენები ─────
-   ერთი მწვანე აქცენტი (terra), მუქი ყავისფერი ტექსტი (roast), ქვისფერი ფონი (cream),
-   მიწისფერი დეტალები (grounds / soil / ember). */
+   ტერაკოტას აქცენტი (terra), მუქი ყავისფერი ტექსტი (roast), ქვისფერი ფონი (cream),
+   მიწისფერი დეტალები (grounds / soil / ember), მცენარის მწვანე (leaf). */
 @theme {
   --font-serif: "Noto Serif Georgian", "Noto Serif", Georgia, serif;
   --font-sans: "Noto Sans Georgian", "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -49,6 +49,7 @@
   --color-milk: #fffbf4;       /* ბარათები/ველები და ტექსტი მუქ ფონზე */
   --color-terra: #a5542b;      /* ტერაკოტა: აქცენტები, ნომრები, ხაზები, მთავარი ღილაკი */
   --color-ember: #d98e55;      /* თბილი ნარინჯისფერი: მცირე აქცენტები, აქცენტი მუქ ფონზე */
+  --color-leaf: #2f6b3a;       /* ნერგის ფოთლის მწვანე (ილუსტრაციიდან): leaderboard-ის აქცენტი */
   /* წარმოებული ტონები (პალიტრის ფერებიდან): მეორეხარისხოვანი ტექსტი, hover, შეცდომა */
   --color-roast-soft: #5c4a3e;
   --color-terra-deep: #8a4322;

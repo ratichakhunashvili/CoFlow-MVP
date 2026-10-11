@@ -24,6 +24,7 @@ Variables-ში დაამატეთ `VITE_FORM_ENDPOINT`. მის გა
 | რა | სად |
 |---|---|
 | ყველა ტექსტი, მენიუ, ბმულები | `src/content/site.js` |
+| Leaderboard-ის პარტნიორები და ნერგების რაოდენობა (`demo: true` = დემო მონაცემი) | `src/content/partners.js` |
 | ფერები, შრიფტები, ღილაკების სტილი | `src/index.css` (`@theme` ბლოკი) |
 | ლოგო (CoFlow, SVG, ფერი იცვლება CSS-ით) | `src/components/Logo.jsx`; ცალკე ფაილი: `public/coflow-logo.svg` |
 | პროცესის ვიდეო (720p mp4, ~4 MB) და poster | `src/assets/video/`; ტექსტი: `site.js` → `process.video` |
